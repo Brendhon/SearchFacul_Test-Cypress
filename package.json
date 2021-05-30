@@ -5,9 +5,9 @@
   "main": "index.js",
   "scripts": {
     "open": "./node_modules/.bin/cypress open",
-    "test": "./node_modules/.bin/cypress run --spec 'cypress/integration/University/**/'",
+    "test": "./node_modules/.bin/cypress run --spec 'cypress/integration/**/'",
     "merge": "npx mochawesome-merge 'cypress/reports/*.json' > mochawesome.json ",
-    "html": "npx marge mochawesome.json "
+    "html": "npx marge mochawesome.json"
   },
   "keywords": [],
   "author": "",

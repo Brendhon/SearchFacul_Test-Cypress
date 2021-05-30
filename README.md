@@ -65,7 +65,7 @@ $ npm run open
 
 ```bash
 
-# Execute os testes
+# Execute os testes - Lembre de apagar o arquivo 'mochawesome.json' se o mesmo existir
 $ npm run test
 
 # Será gerada uma pasta (reports) contendo arquivos .json
