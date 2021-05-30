@@ -1,0 +1,21 @@
+{
+  "name": "searchfacul_tests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "open": "./node_modules/.bin/cypress open",
+    "test": "./node_modules/.bin/cypress run --spec 'cypress/integration/University/**/'",
+    "merge": "npx mochawesome-merge 'cypress/reports/*.json' > mochawesome.json ",
+    "html": "npx marge mochawesome.json "
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^4.12.1",
+    "mochawesome": "^6.2.2",
+    "mochawesome-merge": "^4.2.0",
+    "mochawesome-report-generator": "^5.2.0"
+  }
+}
